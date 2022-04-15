@@ -1,6 +1,6 @@
 export default function Estilo(props) {
 
-    const classeApicada = props.numer <= 0 ? "azul" : "vermelho"
+    const classeAplicada = props.numero <= 0 ? "azul" : "vermelho"
 
     return (
         //Aplicando estilos de acordo com o props de maneira condicional
@@ -12,7 +12,7 @@ export default function Estilo(props) {
                 Texto
             </h1>
 
-            <h2 classname={classeApicada}>Texto 3</h2>
+            <h2 className={classeAplicada}>Texto 3</h2>
         </div> 
     )
 }
