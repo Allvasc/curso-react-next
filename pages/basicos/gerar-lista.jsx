@@ -3,6 +3,7 @@ function gerarLista(final = 10) {
     for (let i = 1; i <= final; i++) {
         lista.push(<span>{i},</span>)
     }
+    console.log(lista)
     return lista
 }
 
