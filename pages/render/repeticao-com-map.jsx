@@ -13,7 +13,6 @@ export default function repeticaoMap() {
     function renderizarLista() {
         return lista.map(function (nome, i) {
             return <li key={i}>{nome}</li>
-
         })
     }
 
