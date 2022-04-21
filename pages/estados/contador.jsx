@@ -13,7 +13,7 @@ const estilo = {
 
 export default function contador() {
 
-    const [cont, setCont] = useState(0)
+    const [cont, setCont] = useState()
 
     let adiciona = () => setCont(cont + 1)
     let remover = () => setCont(cont - 1)
