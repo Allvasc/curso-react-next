@@ -36,17 +36,15 @@ export default function gerarNumeros() {
     const [num, setNum] = useState("Clique para gerar sua sorte")
     const [caixa, setCaixa] = useState("Insira aqui")
 
-
     const numeros = []
 
     function rando() {
         for (let i = 0; i < caixa; i++) {
-            let rando = Math.round(Math.random() * (1 - 60 + 1)) * -1
+            let rando = Math.round(Math.random() * (1 - 60)) * -1
             numeros.push(<p key={i} style={estiloItem}>{rando}</p>)
         }
         return numeros
     }
-
 
     return (
         <div style={estiloCase}>
