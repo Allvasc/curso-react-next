@@ -1,6 +1,6 @@
 export default function NumeroDisplay(props){
     return(
-        <div style={{
+        <p style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -13,6 +13,6 @@ export default function NumeroDisplay(props){
             borderRadius: "50%"
         }}>
             {props.numero}
-        </div>
+        </p>
         )
 }

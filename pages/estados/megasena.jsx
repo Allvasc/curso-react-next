@@ -11,14 +11,14 @@ export default function megaSena(){
             numero => <NumeroDisplay key={numero} numero={numero} />)
     }
     return(
-        <div  style={{
+        <div style={{
             display: "flex",
             flexDirection: "column",
              justifyContent: "center",
              alignItems: "center"  
              }}>
             <h1>Mega Sena</h1>
-            <div  style={{
+            <div style={{
             display: "flex",
             flexDirection: "row",
              justifyContent: "center",
